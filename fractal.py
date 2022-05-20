@@ -389,7 +389,7 @@ class environment:
         agent_list = db.agent_list()
         weight_list = db.weight_list()
         bios_list = db.bios_list()
-    def change(self):
+        
 class interpreter:
     def __init__(self,environment = None,command_mode = False):
         print("interpreter start")
